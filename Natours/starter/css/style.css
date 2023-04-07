@@ -143,6 +143,7 @@ body {
 
 .btn--white {
   background-color: #fff;
+  color: #777;
 }
 
 .btn::after {
