@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bhagya099/Nature_sass_project/issues"
   },
-  "homepage": "https://github.com/bhagya099/Nature_sass_project#readme"
+  "homepage": "https://github.com/bhagya099/Nature_sass_project#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
