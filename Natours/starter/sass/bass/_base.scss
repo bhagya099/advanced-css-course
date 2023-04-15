@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+html {
+    /* this uis the size of user define pixel default is 16px if user change than it takes % */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
