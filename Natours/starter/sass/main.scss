@@ -13,6 +13,8 @@ $color-primary-light: #7ed56f;
 
 $color-grey-dark: #777;
 $color-white: #fff;
+$color-black: #000;
+
 *,
 *::after,
 *::before
@@ -142,7 +144,7 @@ body {
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: $color-black;
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
@@ -153,12 +155,12 @@ body {
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
 }
 
 .btn:active{
     transform: translateY(-1px);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
 }
 
 .btn--white {
