@@ -34,6 +34,10 @@
     &__img {
         display: block;
         width: 100%;
+
+        @include response (tab-port) {
+            height: auto;
+        }
     }
 
     &__right {
